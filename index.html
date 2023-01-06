@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XboxWeb</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="grid-layout">
+      <img src="assets/image/logo-xbox.svg" alt="" />
+      <ul>
+        <li><a href="#s-xbox">VISÃO GERAL</a></li>
+        <li><a href="#s-banner-area">JOGOS</a></li>
+        <li>GALERIA</li>
+        <li>UNBOX</li>
+      </ul>
+      <button>VER DISPONIBILIDADE</button>
+    </header>
+    <main id="s-main">
+      <div id="s-content">
+        <h1>Xbox series X</h1>
+        <p>PEDIDO ANTECIPADO</p>
+        <div>
+          <img class="img-xbox" src="assets/image/xbox.svg" alt="" />
+        </div>
+      </div>
+
+      <section class="grid-layout" id="s-xbox">
+        <div class="leftside">
+          <span class="green">Desempenho</span>
+          <span>aperfeiçoado</span>
+          <p>
+            O controle sem fio Xbox traz um design elegante, conforto refinado e
+            compartilhamento instantâneo para um favorito comum.
+          </p>
+        </div>
+        <div class="rightside">
+          <img class="img-xbox" src="assets/image/controle-xbox.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="grid-layout" id="s-banner-area">
+        <div class="card">
+          <img class="banner" src="assets/image/farcry.svg" alt="" />
+          <img class="logo" src="assets/image/farcry-logo.svg" alt="" />
+        </div>
+        <div class="card">
+          <img class="banner" src="assets/image/forza.svg" alt="" />
+          <img class="logo" src="assets/image/forza-logo.svg" alt="" />
+        </div>
+        <div class="card">
+          <img class="banner" src="assets/image/minecraft.svg" alt="" />
+          <img class="logo" src="assets/image/minecraft-logo.svg" alt="" />
+        </div>
+        <div class="card">
+          <img class="banner" src="assets/image/fifa.svg" alt="" />
+          <img class="logo" src="assets/image/fifa-logo.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="grid-layout" id="s-ask">
+        <h2><span>Perguntas</span> frequentes</h2>
+      </section>
+
+      <section id="s-accordeon" class="grid-layout">
+        <div class="accordeon-faq">
+          <div class="question">
+            <h2>
+              Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?
+            </h2>
+            <svg
+              id="openAccordeon"
+              width="14"
+              height="8"
+              viewBox="0 0 14 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 1.5L7 6.5L12 1.5"
+                stroke="#F0F0F0"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="accordeon-faq">
+          <div class="question">
+            <h2>Como sei se minha TV é compatível com 4K?</h2>
+            <svg
+              width="14"
+              height="8"
+              viewBox="0 0 14 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 1.5L7 6.5L12 1.5"
+                stroke="#F0F0F0"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>Pesquisa no google xD.</p>
+          </div>
+        </div>
+        <div class="accordeon-faq">
+          <div class="question">
+            <h2>O que está incluído no Xbox Series X?</h2>
+            <svg
+              width="14"
+              height="8"
+              viewBox="0 0 14 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 1.5L7 6.5L12 1.5"
+                stroke="#F0F0F0"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>Tudo o que você quiser meu jovem gafanhoto.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="grid-layout" id="s-footer">
+        <div class="leftside">
+          <img src="assets/image/logo-xbox.svg" alt="" />
+        </div>
+        <div class="rightside">
+          <span>© Microsoft 2022</span>
+          <span> Todos os direitos reservados </span>
+        </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

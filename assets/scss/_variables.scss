@@ -1,0 +1,31 @@
+// Colors
+$primary: #9bf00b;
+$bg-primary: #0c0c0c;
+$gray: #777777;
+$gray-light: #c0c0c0;
+$light: #ffffff;
+
+@mixin flexbox-between() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin flexbox-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexbox-column() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin grid-layout() {
+  max-width: 1140px;
+  margin: 0 auto;
+}
